@@ -4,9 +4,9 @@ import Aux from "../../../hoc/Auxillary/Auxillary";
 import Button from "../../UI/Button/Button";
 
 class OrderSummary extends Component {
-  componentWillUpdate() {
-    console.log("orderSummarty willupdatae");
-  }
+  // componentWillUpdate() {
+  //   console.log("orderSummarty willupdatae");
+  // }
 
   render() {
     const ingredientsSummary = Object.keys(this.props.ingredients).map(
