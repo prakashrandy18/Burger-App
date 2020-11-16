@@ -17,8 +17,12 @@ import * as actionCreators from "../../store/actions/Index";
 //   meat: 1.3,
 //   bacon: 0.7,
 // };
-
-class BurgerBuilder extends Component {
+/*
+@exporting class is for testing purpose
+  it is because we dont want to mess up with the connect with the redux
+  thats why we leave default export
+*/
+export class BurgerBuilder extends Component {
   //STATE...
   state = {
     // ingredients: null,
